@@ -1,0 +1,1 @@
+Designed to help CS students and other beginner coders with code.
