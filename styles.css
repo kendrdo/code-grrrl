@@ -1,8 +1,31 @@
 body {
-    font-family: Helvetica;
+    font-family: Poppins;
     font-size: 16px;
+    background-color: #17161d;
+    min-height: 100vh;
 }
 
 #site-title {
-    font-size: 20px;
+    font-size: 50px;
+    color: rgb(112, 72, 255);
+}
+
+.tut-content {
+    font-size: 18px;
+    display: none;
+}
+
+
+.tut-content a {
+    display: block;
+    text-decoration: none;
+}
+
+.tutorials:hover .tut-content {
+    display:block;
+
+}
+.tutorials {
+    position: relative;
+    display: inline-block;
 }
