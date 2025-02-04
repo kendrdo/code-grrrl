@@ -1,22 +1,29 @@
 html, body {
-    font-family: Poppins;
+    font-family: Comfortaa;
     font-size: 16px;
-    background-color: #000716  !important;
+    background-color: black;
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    color: #21be50;
 }
 
 header {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    border-bottom: 2px solid #082210;
+    font-weight:700;
 }
 
 #site-title {
-    font-size: 50px;
-    color: #264dbc !important;
-    font-style: italic;
+    font-size: 30px;
+    margin-left:50px;
+    line-height:27px;
+    margin-top:20px;
+    padding-bottom:20px;
+    letter-spacing: -3px;
 }
 
 .tut-content {
@@ -31,12 +38,18 @@ header {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    color: #21be50;
 }
 .tut-content a {
     display: block;
     text-decoration: none;
     font-size:20px;
     white-space: nowrap;
+    color: #21be50;
+}
+
+.tut-content a:visited {
+    color: #21be50;
 }
 
 .tut-content {
@@ -44,6 +57,9 @@ header {
     top: 100%; 
     right: 0;
     z-index: 1;
+    background-color: rgb(21, 21, 26);
+    border-radius:5px;
+    padding:5px;
 }
 
 .tutorials:hover .tut-content {
@@ -56,4 +72,34 @@ header {
     margin-left: auto;
     margin-right: 200px;
     font-size: 25px;
+}
+
+.page-title {
+    color: #e5f3e5;
+    font-size:50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-bottom:20px;
+}
+
+.page-content {
+    margin-left: 50px;
+    font-size:18px;
+    color: #e5f3e5;
+}
+
+.tagline {
+    color: #e5f3e5;
+    font-size:50px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom:20px;
+}
+
+.lower-tagline {
+    color: #e5f3e5;
+    font-size:20px;
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom:20px;
 }
