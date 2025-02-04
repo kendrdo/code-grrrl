@@ -1,5 +1,5 @@
 html, body {
-    font-family: Comfortaa;
+    font-family: Nunito;
     font-size: 16px;
     background-color: black;
     margin: 0;
@@ -15,6 +15,7 @@ header {
     background-color: black;
     border-bottom: 2px solid #082210;
     font-weight:700;
+    letter-spacing:-3px;
 }
 
 #site-title {
@@ -39,6 +40,7 @@ header {
     cursor: pointer;
     outline: inherit;
     color: #21be50;
+    letter-spacing: -3px;
 }
 .tut-content a {
     display: block;
@@ -90,9 +92,9 @@ header {
 
 .tagline {
     color: #e5f3e5;
-    font-size:50px;
+    font-size:75px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 200px;
     padding-bottom:20px;
 }
 
